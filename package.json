@@ -1,0 +1,18 @@
+{
+  "name": "async-component",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "jsnext:main": "./es/index",
+  "scripts": {
+    "build": "tsc -d -p tsconfig.es6.json && tsc -d",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "Igot Katsuba <katsuba.igor@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.0.10",
+    "typescript": "^2.5.3"
+  }
+}
