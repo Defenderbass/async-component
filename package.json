@@ -1,6 +1,6 @@
 {
   "name": "async-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./lib/index.js",
   "jsnext:main": "./es/index",
@@ -14,5 +14,6 @@
   "devDependencies": {
     "@types/react": "^16.0.10",
     "typescript": "^2.5.3"
-  }
+  },
+  "files": ["es", "lib", "src"]
 }
