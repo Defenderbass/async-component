@@ -11,3 +11,5 @@ const AsyncComponent = asyncComponent(() =>
 const App = (props) =>
     <AsyncComponent {...props}/>;
 ```
+
+Say ["Thank you, developer!"](https://www.paypal.me/igorkatsuba)
