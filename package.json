@@ -1,6 +1,6 @@
 {
   "name": "async-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "./lib/index.js",
   "jsnext:main": "./es/index",
@@ -15,5 +15,13 @@
     "@types/react": "^16.0.10",
     "typescript": "^2.5.3"
   },
-  "files": ["es", "lib", "src"]
+  "files": [
+    "es",
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Defenderbass/async-component.git"
+  }
 }
