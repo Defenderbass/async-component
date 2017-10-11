@@ -10,18 +10,26 @@ export interface IFetchComponents {
 const asyncComponent = (fetchComponent: IFetchComponents, Loader?: ReactComponent) =>
     class AsyncComponent extends Component<any, { Element: ReactComponent }> {
         static Component: ReactComponent;
+        private _isMounted: boolean;
 
         state = {
             Element: AsyncComponent.Component
         };
 
         componentDidMount() {
+            this._isMounted = true;
             if (!AsyncComponent.Component) {
                 fetchComponent().then(Element => {
                     AsyncComponent.Component = Element;
-                    this.setState({Element})
+                    if (this._isMounted) {
+                        this.setState({Element})
+                    }
                 });
             }
+        }
+
+        componentWillUnmount() {
+            this._isMounted = false;
         }
 
         render() {
