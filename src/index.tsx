@@ -10,7 +10,7 @@ export interface IFetchComponents {
 const asyncComponent = (fetchComponent: IFetchComponents, Loader?: ReactComponent) =>
     class AsyncComponent extends Component<any, { Element: ReactComponent }> {
         static Component: ReactComponent;
-        private _isMounted: boolean;
+        _isMounted: boolean;
 
         state = {
             Element: AsyncComponent.Component
