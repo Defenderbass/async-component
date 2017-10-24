@@ -1,5 +1,7 @@
 # AsyncComponent
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Defenderbass/async-component.svg)](https://greenkeeper.io/)
+
 ```jsx harmony
 import asyncComponent from 'async-component';
 
