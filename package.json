@@ -8,7 +8,19 @@
     "build": "tsc -d -p tsconfig.es6.json && tsc -d",
     "prepublish": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "asynchronous",
+    "component",
+    "code splitting",
+    "webpack",
+    "stateless",
+    "functionnal",
+    "async",
+    "await",
+    "code-splitting",
+    "render"
+  ],
   "author": "Igot Katsuba <katsuba.igor@gmail.com>",
   "license": "ISC",
   "devDependencies": {

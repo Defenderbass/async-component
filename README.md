@@ -1,4 +1,4 @@
-# AsyncComponent
+# 📑 AsyncComponent
 
 ```jsx harmony
 import asyncComponent from 'async-component';
@@ -12,4 +12,4 @@ const App = (props) =>
     <AsyncComponent {...props}/>;
 ```
 
-Say ["Thank you, developer!"](https://www.paypal.me/igorkatsuba)
+Say ["Thank you, developer! 👍👍👍👍"](https://www.paypal.me/igorkatsuba)
